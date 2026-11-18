@@ -90,7 +90,7 @@ Not included or not runnable from here:
 - **Blender previews** (`blender_*.py`) need Blender 5.x; not run in this check.
 - **No automated test suite yet.** The check is the demo above plus `python -m compileall`.
 - Only two gestures (pick up / put down a box). Phone capture, local video models and retargeting from the plan
-  (`PLAN.md`) are not started.
+  are not started.
 
 ## License
 

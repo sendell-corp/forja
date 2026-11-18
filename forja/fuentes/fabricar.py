@@ -1,5 +1,5 @@
 """La fuente procedural de punta a punta: genera los clips del juego, los limpia con Jolt, los mide, y saca el GLB con
-los nombres de hueso del juego y las anotaciones para qdt-motion.
+los nombres de hueso del juego y las anotaciones para sendell-motion.
 
 python -m forja.fuentes.fabricar rig_info.json creature.json MODELO.glb SALIDA [--clips caminar,mordisco,…]
 

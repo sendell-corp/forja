@@ -1,4 +1,4 @@
-"""Anotaciones de cada clip para qdt-motion, en el espacio del juego (glTF: Y arriba, la criatura mira a +Z).
+"""Anotaciones de cada clip para sendell-motion, en el espacio del juego (glTF: Y arriba, la criatura mira a +Z).
 
 Formato (un JSON junto al GLB; tiempos en cuadros a `fps`, distancias en metros):
 {
@@ -17,7 +17,7 @@ Formato (un JSON junto al GLB; tiempos en cuadros a `fps`, distancias en metros)
     }
   }
 }
-Las ventanas siguen el PLAN de qdt-motion: el warping de raíz y orientación actúa en la anticipación, la IK al blanco en
+Las ventanas siguen el PLAN de sendell-motion: el warping de raíz y orientación actúa en la anticipación, la IK al blanco en
 el cuadro de impacto, y la entrada a otro movimiento solo dentro de «cancelable».
 """
 import numpy as np
