@@ -1,0 +1,17 @@
+{
+ "mean_cm": 3.0482465422893354,
+ "median_cm": 0.9425707891423809,
+ "p95_cm": 15.43430163293795,
+ "paws_cm": NaN,
+ "legs_cm": NaN,
+ "spine_cm": NaN,
+ "head_cm": NaN,
+ "tail_cm": NaN,
+ "worst_joints": {
+  "leg3_3": 13.48,
+  "leg6_3": 11.27,
+  "leg3_2": 11.2,
+  "leg6_2": 8.93,
+  "leg4_3": 8.14
+ }
+}

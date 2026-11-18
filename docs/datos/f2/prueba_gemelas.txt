@@ -1,0 +1,8 @@
+Prueba de las gemelas (17/11/2026, código final, gemelas forzadas encendidas o apagadas): marcha verdadera proyectada con ruido gaussiano de 1,5 px y, en la vista lateral,
+las lecturas de L2 (leg1) y R2 (leg6) intercambiadas en los cuadros 30–40 y 70–78 (el fallo típico de pata cercana y
+lejana). Ajuste de Forja con y sin candidatos de gemela. Errores en cm.
+
+con gemelas, 2 vistas: error 0.48 | L2 0.96 R2 0.96 | arriba/abajo 99.4% (L2 100%, R2 100%)
+con gemelas, 3 vistas: error 0.28 | L2 0.30 R2 0.29 | arriba/abajo 99.6% (L2 100%, R2 100%)
+sin gemelas, 2 vistas: error 0.56 | L2 1.32 R2 1.47 | arriba/abajo 99.1% (L2 99%, R2 99%)
+sin gemelas, 3 vistas: error 0.33 | L2 0.51 R2 0.57 | arriba/abajo 99.3% (L2 100%, R2 97%)

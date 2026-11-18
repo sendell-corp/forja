@@ -1,0 +1,26 @@
+[
+ {
+  "s": 12,
+  "banderas": [
+   "marcha-atras:alzarse"
+  ]
+ },
+ {
+  "s": 17,
+  "banderas": [
+   "marcha-atras:mordisco"
+  ]
+ },
+ {
+  "s": 22,
+  "banderas": [
+   "marcha-atras:retroceder_herida"
+  ]
+ },
+ {
+  "s": 23,
+  "banderas": [
+   "marcha-atras:retroceder_herida"
+  ]
+ }
+]

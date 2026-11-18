@@ -1,0 +1,33 @@
+diff --git i/blender/build_rig.py w/blender/build_rig.py
+index eea98a6..e2dd602 100644
+--- i/blender/build_rig.py
++++ w/blender/build_rig.py
+@@ -65,7 +65,18 @@ bpy.ops.object.select_all(action="DESELECT")
+ body.select_set(True)
+ arm.select_set(True)
+ bpy.context.view_layer.objects.active = arm
+-bpy.ops.object.parent_set(type="ARMATURE_AUTO")
++# creature.json "keep_weights": the mesh brings its own skin, with vertex groups named like rig.json's bones (a game
++# model rigged elsewhere): keep it instead of Blender's automatic weights, so the reader learns the creature as it deforms
++# in the game. The armature modifier left by the source rig is pointed at the new armature.
++KEEP = bool(hasattr(common, "_c") and common._c.get("keep_weights"))
++bpy.ops.object.parent_set(type="ARMATURE" if KEEP else "ARMATURE_AUTO")
++mods = [m for m in body.modifiers if m.type == "ARMATURE"]
++for m in mods[1:]:
++    body.modifiers.remove(m)
++if mods:
++    mods[0].object = arm
++if KEEP:
++    print("kept the mesh's own weights:", sorted(g.name for g in body.vertex_groups if g.name in {b[0] for b in bones}))
+ 
+ # vertices the heat solve missed go fully to the nearest bone segment
+ names = [b[0] for b in bones]
+@@ -91,7 +102,7 @@ for v in body.data.vertices:
+         W[v.index, g.group] = g.weight
+ E = np.array([e.vertices[:] for e in body.data.edges])
+ deg = np.bincount(E.ravel(), minlength=nv)[:, None].clip(1)
+-for _ in range(3):
++for _ in range(0 if KEEP else 3):
+     acc = np.zeros_like(W)
+     np.add.at(acc, E[:, 0], W[E[:, 1]])
+     np.add.at(acc, E[:, 1], W[E[:, 0]])

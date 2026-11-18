@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+# outputs and local models: never commit game assets
+salidas/
+*.glb
+!docs/**/*.glb
+*.npz
+.env
+.env.*

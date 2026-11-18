@@ -1,0 +1,19 @@
+Ablación con las lecturas reales del examen de F1 (lector de 2 vistas de F1, det.npz; 120 cuadros al azar dentro de los límites, sin suelo: se ajusta sin suelo). Error 3D contra la verdad de Blender, cm. 17/11/2026, código final (gemelas apagadas, descarte 12/4, IK con peso robusto por vista, suavizado λ = 0,5 con 2 vistas y raíz λ = 0,3).
+== opciones {}
+triangulación: lecturas propias 99.2%, de una gemela 0.0%, descartadas 0.8%
+anymove: media 3.05 mediana 0.94 p95 15.43 cm | leg0 1.2 leg1 4.2 leg2 2.2 leg3 10.1 leg4 5.7 leg5 2.7 leg6 7.0 leg7 1.5
+forja  : media 0.84 mediana 0.63 p95 1.99 cm | leg0 0.7 leg1 1.5 leg2 1.1 leg3 1.0 leg4 1.6 leg5 0.6 leg6 0.6 leg7 0.6
+== opciones {"seleccion": false}
+anymove: media 3.05 mediana 0.94 p95 15.43 cm | leg0 1.2 leg1 4.2 leg2 2.2 leg3 10.1 leg4 5.7 leg5 2.7 leg6 7.0 leg7 1.5
+forja  : media 0.84 mediana 0.63 p95 2.00 cm | leg0 0.7 leg1 1.7 leg2 1.1 leg3 1.0 leg4 1.3 leg5 0.6 leg6 0.6 leg7 0.6
+== opciones {"seleccion": false, "datos": "puntos"}
+anymove: media 3.05 mediana 0.94 p95 15.43 cm | leg0 1.2 leg1 4.2 leg2 2.2 leg3 10.1 leg4 5.7 leg5 2.7 leg6 7.0 leg7 1.5
+forja  : media 0.89 mediana 0.64 p95 2.21 cm | leg0 0.8 leg1 2.1 leg2 1.2 leg3 1.0 leg4 1.3 leg5 0.7 leg6 0.6 leg7 0.6
+== opciones {"gemelas": true, "sel_kw": {}}
+triangulación: lecturas propias 90.0%, de una gemela 1.5%, descartadas 8.5%
+anymove: media 3.05 mediana 0.94 p95 15.43 cm | leg0 1.2 leg1 4.2 leg2 2.2 leg3 10.1 leg4 5.7 leg5 2.7 leg6 7.0 leg7 1.5
+forja  : media 1.59 mediana 0.73 p95 5.12 cm | leg0 1.0 leg1 2.3 leg2 1.6 leg3 4.6 leg4 2.6 leg5 2.3 leg6 2.0 leg7 1.0
+== opciones {"suave_lam": 2.0, "raiz_lam": 2.0}
+triangulación: lecturas propias 99.2%, de una gemela 0.0%, descartadas 0.8%
+anymove: media 3.05 mediana 0.94 p95 15.43 cm | leg0 1.2 leg1 4.2 leg2 2.2 leg3 10.1 leg4 5.7 leg5 2.7 leg6 7.0 leg7 1.5
+forja  : media 1.07 mediana 0.84 p95 2.43 cm | leg0 0.9 leg1 1.8 leg2 1.4 leg3 1.6 leg4 1.8 leg5 0.7 leg6 0.9 leg7 0.8

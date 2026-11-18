@@ -1,0 +1,353 @@
+{
+ "caminar": {
+  "antes": {
+   "suelo_max_cm": 0.023861031513661146,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 5.2770353853702545,
+   "partes_cuadros": 19,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg3_1",
+    "body–leg4_1",
+    "body–leg5_1"
+   ],
+   "equilibrio_margen_min_cm": 53.25949374216461,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 49.88926880658837,
+   "zmp_cuadros_fuera": 0
+  },
+  "despues": {
+   "suelo_max_cm": 0.024301996745634824,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.2974690170958638,
+   "partes_cuadros": 3,
+   "pares_tocando": [
+    "body–leg4_1",
+    "body–leg5_1"
+   ],
+   "equilibrio_margen_min_cm": 53.66302062781373,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 51.55054696782299,
+   "zmp_cuadros_fuera": 0
+  },
+  "puntas_desvio_max_cm": 4.3626343482045404e-05,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.00013976011378268082,
+   "deslizamiento_cm_cuadro_max": 0.0010534858356593053,
+   "deslizamiento_cm_apoyo_media": 0.0002728061350496012,
+   "puntas_bajo_apoyo_max_cm": 0.0003798334415869298,
+   "bucle_salto_ultimo_a_primero_cm": 3.647478629720763,
+   "bucle_paso_p95_cm": 3.643951983175644,
+   "bucle_paso_max_cm": 5.538859458202916
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.00013991961385155004,
+   "deslizamiento_cm_cuadro_max": 0.0010535496329096962,
+   "deslizamiento_cm_apoyo_media": 0.0002751137463624308,
+   "puntas_bajo_apoyo_max_cm": 0.0003787785460770965,
+   "bucle_salto_ultimo_a_primero_cm": 4.635803328669194,
+   "bucle_paso_p95_cm": 4.219227083237665,
+   "bucle_paso_max_cm": 5.463986189195833
+  },
+  "conversor_error_mm": 0.01127048417666727
+ },
+ "trotar": {
+  "antes": {
+   "suelo_max_cm": 0.02273865247843787,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 5.240829288959503,
+   "partes_cuadros": 14,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg3_1",
+    "body–leg4_1",
+    "body–leg5_1"
+   ],
+   "equilibrio_margen_min_cm": 31.1917278649275,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 26.713520591999497,
+   "zmp_cuadros_fuera": 0
+  },
+  "despues": {
+   "suelo_max_cm": 0.022943702060729265,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.246217823587358,
+   "partes_cuadros": 2,
+   "pares_tocando": [
+    "body–leg5_1"
+   ],
+   "equilibrio_margen_min_cm": 31.005211600569005,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 27.3431921554035,
+   "zmp_cuadros_fuera": 0
+  },
+  "puntas_desvio_max_cm": 2.4011589611148992e-05,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.0004936283425002506,
+   "deslizamiento_cm_cuadro_max": 0.009993611457208802,
+   "deslizamiento_cm_apoyo_media": 0.0003489271358616104,
+   "puntas_bajo_apoyo_max_cm": 0.008434536426768502,
+   "bucle_salto_ultimo_a_primero_cm": 5.325338569976259,
+   "bucle_paso_p95_cm": 5.791257667407123,
+   "bucle_paso_max_cm": 5.7912806185339
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.000493949964984206,
+   "deslizamiento_cm_cuadro_max": 0.009993715753444484,
+   "deslizamiento_cm_apoyo_media": 0.0003522097433166782,
+   "puntas_bajo_apoyo_max_cm": 0.00843386328513579,
+   "bucle_salto_ultimo_a_primero_cm": 7.637072897906982,
+   "bucle_paso_p95_cm": 6.016380819410556,
+   "bucle_paso_max_cm": 6.541616231371925
+  },
+  "conversor_error_mm": 0.011291022372245545
+ },
+ "girar": {
+  "antes": {
+   "suelo_max_cm": 0.01051540020853281,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 4.110303148627281,
+   "partes_cuadros": 16,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg3_1",
+    "body–leg4_1",
+    "body–leg5_1",
+    "body–leg7_1"
+   ],
+   "equilibrio_margen_min_cm": 56.78675767275373,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 54.23798011571384,
+   "zmp_cuadros_fuera": 0
+  },
+  "despues": {
+   "suelo_max_cm": 0.010398507583886385,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.2526582218706608,
+   "partes_cuadros": 3,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg5_1"
+   ],
+   "equilibrio_margen_min_cm": 56.714538155216374,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": 54.06098340889136,
+   "zmp_cuadros_fuera": 0
+  },
+  "puntas_desvio_max_cm": 2.3045510146902603e-05,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.000281998251387876,
+   "deslizamiento_cm_cuadro_max": 0.008322682309934422,
+   "deslizamiento_cm_apoyo_media": 0.00019479561840278316,
+   "puntas_bajo_apoyo_max_cm": 0.006355609643261817,
+   "bucle_salto_ultimo_a_primero_cm": 3.42488883327213,
+   "bucle_paso_p95_cm": 3.575971553845921,
+   "bucle_paso_max_cm": 3.6662909015639067
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.0002820144400858592,
+   "deslizamiento_cm_cuadro_max": 0.008322613895728598,
+   "deslizamiento_cm_apoyo_media": 0.00019524541119493935,
+   "puntas_bajo_apoyo_max_cm": 0.006354085710376378,
+   "bucle_salto_ultimo_a_primero_cm": 3.7003017693688385,
+   "bucle_paso_p95_cm": 3.801235774906523,
+   "bucle_paso_max_cm": 3.931363858872511
+  },
+  "conversor_error_mm": 0.011234801766664184
+ },
+ "alzarse": {
+  "antes": {
+   "suelo_max_cm": 0.0006558745553775225,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 14.901603758335114,
+   "partes_cuadros": 63,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg3_1",
+    "body–leg4_1",
+    "leg6_1–leg7_0"
+   ],
+   "equilibrio_margen_min_cm": -6.8057739975426035,
+   "equilibrio_cuadros_fuera": 8,
+   "equilibrio_cuadros_justos": 10,
+   "zmp_margen_min_cm": -15.73939446420595,
+   "zmp_cuadros_fuera": 8
+  },
+  "despues": {
+   "suelo_max_cm": 0.033706973772495985,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.2302747219800949,
+   "partes_cuadros": 1,
+   "pares_tocando": [
+    "abdomen–leg0_0"
+   ],
+   "equilibrio_margen_min_cm": -2.9723676984031524,
+   "equilibrio_cuadros_fuera": 4,
+   "equilibrio_cuadros_justos": 6,
+   "zmp_margen_min_cm": -7.374408507375552,
+   "zmp_cuadros_fuera": 4
+  },
+  "puntas_desvio_max_cm": 0.21868695097200475,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.0010588970664076327,
+   "deslizamiento_cm_cuadro_max": 0.03039056563135011,
+   "deslizamiento_cm_apoyo_media": 0.001106089245565817,
+   "puntas_bajo_apoyo_max_cm": 0.0008061091538294485
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.001727066266390572,
+   "deslizamiento_cm_cuadro_max": 0.20768197458641618,
+   "deslizamiento_cm_apoyo_media": 0.015259718544286673,
+   "puntas_bajo_apoyo_max_cm": 0.0008075971415472116
+  },
+  "conversor_error_mm": 0.011393090626710388
+ },
+ "mordisco": {
+  "antes": {
+   "suelo_max_cm": 0.010831643885467201,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 3.6766603589057922,
+   "partes_cuadros": 27,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg3_1",
+    "body–leg4_1"
+   ],
+   "equilibrio_margen_min_cm": 68.8163493424756,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": -17.78092506002964,
+   "zmp_cuadros_fuera": 2
+  },
+  "despues": {
+   "suelo_max_cm": 0.006637364276684821,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.0,
+   "partes_cuadros": 0,
+   "pares_tocando": [],
+   "equilibrio_margen_min_cm": 73.29669247652359,
+   "equilibrio_cuadros_fuera": 0,
+   "equilibrio_cuadros_justos": 0,
+   "zmp_margen_min_cm": -12.44338103114847,
+   "zmp_cuadros_fuera": 2
+  },
+  "puntas_desvio_max_cm": 0.0001310969130037874,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.00011091045359874295,
+   "deslizamiento_cm_cuadro_max": 0.0031735727860729276,
+   "deslizamiento_cm_apoyo_media": 0.0002378146094296618,
+   "puntas_bajo_apoyo_max_cm": 0.0005200629809395951
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.00011132982590481052,
+   "deslizamiento_cm_cuadro_max": 0.00317335226661476,
+   "deslizamiento_cm_apoyo_media": 0.00024100106975651802,
+   "puntas_bajo_apoyo_max_cm": 0.0005248089076120843
+  },
+  "conversor_error_mm": 0.011470296200698607
+ },
+ "abalanzarse": {
+  "antes": {
+   "suelo_max_cm": 0.022381969029083848,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 5.5917371064424515,
+   "partes_cuadros": 20,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "body–leg2_1",
+    "body–leg3_1",
+    "body–leg4_1",
+    "body–leg5_1",
+    "leg2_0–leg3_0",
+    "leg4_0–leg5_0"
+   ],
+   "equilibrio_margen_min_cm": -37.18320716956183,
+   "equilibrio_cuadros_fuera": 2,
+   "equilibrio_cuadros_justos": 2,
+   "zmp_margen_min_cm": -29.657965221530958,
+   "zmp_cuadros_fuera": 2
+  },
+  "despues": {
+   "suelo_max_cm": 0.018701670342125,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.4554576240479946,
+   "partes_cuadros": 2,
+   "pares_tocando": [
+    "leg2_0–leg3_0",
+    "leg4_0–leg5_0"
+   ],
+   "equilibrio_margen_min_cm": -36.98277848454155,
+   "equilibrio_cuadros_fuera": 2,
+   "equilibrio_cuadros_justos": 2,
+   "zmp_margen_min_cm": -28.695422962571143,
+   "zmp_cuadros_fuera": 1
+  },
+  "puntas_desvio_max_cm": 9.472964274155844e-05,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.0004565559238861418,
+   "deslizamiento_cm_cuadro_max": 0.014058671034215922,
+   "deslizamiento_cm_apoyo_media": 0.00018838797106699397,
+   "puntas_bajo_apoyo_max_cm": 0.008200500362749719
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.00045667716073032424,
+   "deslizamiento_cm_cuadro_max": 0.014058656401392828,
+   "deslizamiento_cm_apoyo_media": 0.0001897983006952735,
+   "puntas_bajo_apoyo_max_cm": 0.00819989347165817
+  },
+  "conversor_error_mm": 0.011159483599026496
+ },
+ "retroceder_herida": {
+  "antes": {
+   "suelo_max_cm": 0.002384306935709901,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 6.617134064435959,
+   "partes_cuadros": 22,
+   "pares_tocando": [
+    "body–leg3_1",
+    "body–leg4_1",
+    "leg2_0–leg3_0"
+   ],
+   "equilibrio_margen_min_cm": -38.566792082062214,
+   "equilibrio_cuadros_fuera": 10,
+   "equilibrio_cuadros_justos": 10,
+   "zmp_margen_min_cm": -37.1998550097596,
+   "zmp_cuadros_fuera": 10
+  },
+  "despues": {
+   "suelo_max_cm": 0.006803520955145359,
+   "suelo_cuadros": 0,
+   "partes_max_cm": 0.2544764429330826,
+   "partes_cuadros": 3,
+   "pares_tocando": [
+    "abdomen–leg7_0",
+    "leg2_0–leg3_0"
+   ],
+   "equilibrio_margen_min_cm": -20.736755161130475,
+   "equilibrio_cuadros_fuera": 10,
+   "equilibrio_cuadros_justos": 10,
+   "zmp_margen_min_cm": -22.112415881724537,
+   "zmp_cuadros_fuera": 6
+  },
+  "puntas_desvio_max_cm": 0.00023215872909760832,
+  "medidas_bruto": {
+   "deslizamiento_cm_cuadro_media": 0.0002262539290505126,
+   "deslizamiento_cm_cuadro_max": 0.004821091754106631,
+   "deslizamiento_cm_apoyo_media": 0.00040429056063317033,
+   "puntas_bajo_apoyo_max_cm": 0.0004591635909184655
+  },
+  "medidas_limpio": {
+   "deslizamiento_cm_cuadro_media": 0.00022615949529828977,
+   "deslizamiento_cm_cuadro_max": 0.0048209650862821255,
+   "deslizamiento_cm_apoyo_media": 0.0004013065120689909,
+   "puntas_bajo_apoyo_max_cm": 0.00045585486432159206
+  },
+  "conversor_error_mm": 0.011397379412079774
+ }
+}

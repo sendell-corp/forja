@@ -1,0 +1,19 @@
+{
+ "lectura_px": {
+  "frente": 2.42,
+  "lado": 3.29,
+  "puntas (leg*_3)": 2.95,
+  "patas (leg*_0..2)": 2.93,
+  "cuerpo y abdomen": 2.42,
+  "colmillos": 2.63
+ },
+ "ajuste_3d_cm": {
+  "media": 4.06,
+  "mediana": 1.08,
+  "p95": 19.12,
+  "puntas (leg*_3)": 9.07,
+  "patas (leg*_0..2)": 3.16,
+  "cuerpo y abdomen": 2.39,
+  "colmillos": 1.09
+ }
+}

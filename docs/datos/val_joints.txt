@@ -1,0 +1,9 @@
+val: frente 7.23 px (2.53 cm), lado 8.50 px (2.98 cm); medianas 2.88 / 3.04 px
+peores: abdomen_end 20.5/17.2, leg2_3 5.4/27.3, leg3_1 16.9/15.4, leg2_1 7.7/24.3, leg1_3 2.8/28.9, leg1_1 3.8/23.9, leg1_2 4.3/22.6, leg4_1 21.3/4.6, leg3_3 16.6/9.0, leg2_2 6.7/17.4
+mejores: body 3.2/3.0, leg7_0 3.6/3.0, abdomen 3.9/3.2, leg0_0 3.5/3.9, leg4_0 4.2/3.1, leg6_0 4.3/3.0, leg5_0 4.4/3.1, leg3_0 3.9/3.7
+  puntas: frente 8.67 px, lado 12.12 px
+  rodillas y tobillos: frente 8.57 px, lado 10.41 px
+  caderas: frente 3.89 px, lado 3.57 px
+  cuerpo y abdomen: frente 7.92 px, lado 6.77 px
+  colmillos: frente 5.02 px, lado 5.23 px
+todas las lecturas: mediana 2.94 px, p90 12.67, p99 114.11, >20 px 6.2 %

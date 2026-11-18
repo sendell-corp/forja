@@ -1,0 +1,19 @@
+Forja, de Sendell (https://sendell.co).
+
+Este repositorio contiene código derivado de anymove (https://github.com/patch-gg/anymove, commit 8b42c48,
+© Patch), distribuido bajo la licencia Apache 2.0 (copia en terceros/anymove-LICENSE.txt). Archivos derivados y
+cambios hechos:
+
+- forja/lector/entrenar.py: deriva de mocap/train.py. Cambios: N vistas (frente, lado, arriba) con los píxeles
+  verdaderos calculados desde joints_world con el layout de Forja; lote por defecto 8 y tope de procesos de carga
+  para una GPU de 8 GB en Windows; error de validación por vista.
+- forja/vistas/layout.py: generaliza mocap/layout.py (dos vistas) a N vistas ortográficas como proyecciones afines.
+- forja/rig.py: reimplementa en numpy la cinemática directa de mocap/solve.py (Rig.forward) y de Blender.
+- forja/ajuste/ik.py: CadenaIK.inicio_geometrico sigue la idea de ik_init de mocap/solve.py.
+- forja/lector/leer.py: componer() sigue mocap/exam.py video(); leer() usa mocap/detect.py y mocap/model.py sin cambios.
+- parches/forja-keep-weights.patch (F1): cambio a blender/build_rig.py de anymove (opción keep_weights).
+- forja/vistas/blender/con_vistas.py: envuelve blender/common.py cameras() de anymove y ejecuta sus scripts de
+  Blender sin modificarlos.
+
+El resto del ajuste (triangulación robusta con gemelas y Viterbi, raíz, IK acotada por cadena con pesos robustos por
+vista, suavizado de Huber, apoyos por HMM y plantado), el generador procedural y el examen son código propio de Forja.

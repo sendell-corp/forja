@@ -1,0 +1,9 @@
+{
+  "name": "forja",
+  "private": true,
+  "type": "module",
+  "description": "Forja: la parte en Node (Jolt) de la limpieza física",
+  "dependencies": {
+    "jolt-physics": "1.1.1"
+  }
+}

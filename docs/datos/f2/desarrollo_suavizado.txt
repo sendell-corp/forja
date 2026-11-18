@@ -1,0 +1,23 @@
+Suavizado (17/11/2026). Elegido con el clip de desarrollo (movimiento del examen de F1 con 3 vistas, det3; y con 2 vistas, det2), sin suelo. Error 3D medio contra la verdad y temblor = RMS de la aceleración del ajuste que no está en la verdad (cm/cuadro²). La revisión se hizo después de ver en el examen que el mordisco perdía el 40 % de su pico de velocidad con λ = 2 (abajo, como dato; no se usó para elegir).
+
+dev 3 vistas, huber λ=2 (antes)       : error 0.845 cm (p95 1.91), temblor 0.917 cm/c²
+dev 3 vistas, huber λ=1               : error 0.703 cm (p95 1.42), temblor 0.847 cm/c²
+dev 3 vistas, huber λ=0,3             : error 0.599 cm (p95 1.16), temblor 0.736 cm/c²
+dev 3 vistas, huber λ=0,1             : error 0.575 cm (p95 1.15), temblor 0.736 cm/c²
+dev 3 vistas, cauchy λ=0,3            : error 0.617 cm (p95 1.21), temblor 1.187 cm/c²
+dev 3 vistas, sin suavizado           : error 0.600 cm (p95 1.22), temblor 1.038 cm/c²
+dev 3 vistas, λ=0,1, raíz λ=2         : error 0.575 cm (p95 1.15), temblor 0.736 cm/c²
+dev 3 vistas, λ=0,1, raíz λ=0,3       : error 0.522 cm (p95 1.10), temblor 0.734 cm/c²
+dev 3 vistas, λ=0,05, raíz λ=0,3      : error 0.526 cm (p95 1.12), temblor 0.787 cm/c²
+dev 2 vistas, huber λ=2 (antes)       : error 1.066 cm (p95 2.45), temblor 1.043 cm/c²
+dev 2 vistas, λ=0,1, raíz λ=0,3       : error 0.840 cm (p95 2.12), temblor 1.963 cm/c²
+dev 2 vistas, λ=0,1, raíz λ=0,1       : error 0.845 cm (p95 2.10), temblor 1.988 cm/c²
+dev 2 vistas, λ=0,5, raíz λ=0,3       : error 0.843 cm (p95 2.03), temblor 1.205 cm/c²
+dev 2 vistas, λ=1, raíz λ=0,3         : error 0.887 cm (p95 2.03), temblor 1.100 cm/c²
+dev 2 vistas, λ=1, raíz λ=1           : error 0.901 cm (p95 2.09), temblor 1.030 cm/c²
+
+Mordisco del examen (3 vistas), primera pasada, solo como dato:
+mordisco 3 vistas, huber δ=0,08 (actual)   : error 0.534 (p95 1.18), temblor 0.554, golpe colmillos 0.60 cuerpo 0.69, desl 0.003
+mordisco 3 vistas, cauchy δ=0,08           : error 0.508 (p95 1.14), temblor 0.442, golpe colmillos 0.67 cuerpo 0.81, desl 0.010
+mordisco 3 vistas, cauchy δ=0,04           : error 0.506 (p95 1.18), temblor 0.428, golpe colmillos 0.73 cuerpo 0.81, desl 0.003
+mordisco 3 vistas, sin suavizado           : error 0.529 (p95 1.18), temblor 0.519, golpe colmillos 0.84 cuerpo 0.69, desl 0.002

@@ -1,0 +1,18 @@
+Simulación (17/11/2026): los 4 clips verdaderos proyectados con los errores reales del lector de F1 en su examen (por articulación y vista, en tramos seguidos con desfase al azar; la vista de arriba toma los del frente × 0,7, una suposición solo para depurar). Ajuste de Forja (versión final: IK con peso robusto por vista; gemelas solo con 3 vistas; suelo con la malla baja de las garras; suavizado λ = 0,5 con 2 vistas y 0,1 con 3; apoyos con la velocidad 3D de un lado). Errores en cm; HMM = acierto de los apoyos que decide Forja.
+
+marcha       2 vistas: error 0.62 (p95 1.95, puntas 0.47) | arriba/abajo 99.9% (HMM 98.8%) | pen 0.02/0.00 | desl 0.020 cm/c 0.17 cm/apoyo | malla min -0.02 cm | 29s
+      por pata L1 0.5 L2 0.9 L3 0.8 L4 0.7 R4 0.7 R3 0.4 R2 0.4 R1 0.4
+marcha       3 vistas: error 0.41 (p95 1.08, puntas 0.34) | arriba/abajo 99.9% (HMM 98.0%) | pen 0.02/0.00 | desl 0.014 cm/c 0.08 cm/apoyo | malla min -0.02 cm | 30s
+      por pata L1 0.4 L2 0.4 L3 0.4 L4 0.5 R4 0.5 R3 0.4 R2 0.3 R1 0.3
+alzarse      2 vistas: error 0.58 (p95 1.72, puntas 0.41) | arriba/abajo 99.7% (HMM 97.0%) | pen 0.01/0.00 | desl 0.007 cm/c 0.01 cm/apoyo | malla min -0.02 cm | 29s
+      por pata L1 0.5 L2 0.8 L3 0.6 L4 0.6 R4 0.6 R3 0.4 R2 0.5 R1 0.5
+alzarse      3 vistas: error 0.40 (p95 1.03, puntas 0.29) | arriba/abajo 99.8% (HMM 97.1%) | pen 0.01/0.00 | desl 0.009 cm/c 0.01 cm/apoyo | malla min -0.02 cm | 30s
+      por pata L1 0.4 L2 0.4 L3 0.4 L4 0.4 R4 0.5 R3 0.3 R2 0.4 R1 0.3
+mordisco     2 vistas: error 0.56 (p95 1.82, puntas 0.22) | arriba/abajo 100.0% (HMM 99.6%) | pen 0.02/0.00 | desl 0.014 cm/c 0.04 cm/apoyo | malla min -0.02 cm | 29s
+      por pata L1 0.4 L2 0.9 L3 0.7 L4 0.6 R4 0.6 R3 0.3 R2 0.3 R1 0.4
+mordisco     3 vistas: error 0.37 (p95 1.02, puntas 0.17) | arriba/abajo 100.0% (HMM 100.0%) | pen 0.02/0.00 | desl 0.009 cm/c 0.01 cm/apoyo | malla min -0.02 cm | 29s
+      por pata L1 0.3 L2 0.3 L3 0.4 L4 0.4 R4 0.5 R3 0.3 R2 0.3 R1 0.3
+abalanzarse  2 vistas: error 0.58 (p95 1.84, puntas 0.32) | arriba/abajo 99.7% (HMM 97.9%) | pen 0.02/0.00 | desl 0.023 cm/c 0.21 cm/apoyo | malla min -0.02 cm | 28s
+      por pata L1 0.4 L2 0.8 L3 0.8 L4 0.6 R4 0.6 R3 0.4 R2 0.4 R1 0.4
+abalanzarse  3 vistas: error 0.39 (p95 1.05, puntas 0.23) | arriba/abajo 99.7% (HMM 98.8%) | pen 0.02/0.00 | desl 0.019 cm/c 0.15 cm/apoyo | malla min -0.02 cm | 30s
+      por pata L1 0.3 L2 0.4 L3 0.4 L4 0.4 R4 0.5 R3 0.3 R2 0.3 R1 0.3
